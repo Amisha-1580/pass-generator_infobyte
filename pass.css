@@ -1,0 +1,71 @@
+        
+        
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+.container {
+    text-align: center;
+    background-color: #f0c5e5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Header */
+.header {
+    font-size: 2rem;
+    color: #3b3b99;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Password Display */
+.password-display {
+    font-size: 1.5rem;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f5;
+    margin-bottom: 20px;
+    min-height: 40px;
+}
+
+/* Button Styles */
+.button {
+    font-size: 1rem;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Colors */
+.generate-btn {
+    background-color: #4caf50;
+}
+
+.stop-btn {
+    background-color: #ff6b6b;
+}
+
+.clear-btn {
+    background-color: #ffa726;
+}
+
+/* Button Hover Effects */
+.button:hover {
+    opacity: 0.85;
+}

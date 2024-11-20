@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link href="pass.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Password Generator</div>
+
+      <!-- Display Generated Password -->
+      <div id="passwordDisplay" class="password-display">
+        <!-- Your password will appear here... -->
+      </div>
+
+      <!-- Control Buttons -->
+      <button class="button generate-btn" onclick="generatePassword()">
+        Start Generate
+      </button>
+      <button class="button stop-btn" onclick="stopPassword()">Stop</button>
+      <button class="button clear-btn" onclick="clearPassword()">Clear</button>
+    </div>
+
+    <script src="pass.js"></script>
+  </body>
+</html>
